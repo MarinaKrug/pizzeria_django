@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    <a href="{% url 'pizzas:home' %}">Return homepage</a> -
+    <a href="{% url 'pizzas:list_pizzas' %}">Pizzas</a>
+</p>
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
