@@ -18,7 +18,7 @@ def show_one_pizza(request, pizza_id):
     """Выводит 1 пиццу и все ее дополнения"""
     pizza = Pizza.objects.get(pk=pizza_id)
     names = pizza.topping_set.order_by('name')
-    context = {'pizza': pizza, 'name': names}
-    return render(request, 'pizzas/pizza', context=context)
+    context = {'pizza': pizza, 'names': names}
+    return render(request, 'pizzas/pizza.html', context=context)
 
 
