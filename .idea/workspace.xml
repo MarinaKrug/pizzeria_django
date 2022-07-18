@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5355d00-23d6-4893-adf6-67a188160d51" name="Changes" comment="добавлены страницы для каждого виде пиццы">
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/Blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blog/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blog/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blog/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/templates/blogs/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/templates/blogs/edit_entry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/templates/blogs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/templates/blogs/new_entry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/blogs/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/templates/pizzas/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/templates/pizzas/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzeria/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzeria/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzeria/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzeria/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pizzeria/pizzas/views.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bse1hpPpmGCkzTSWmXGexAh7di" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Compas-Pro/PycharmProjects/djangoProgects/learning_log",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Compas-Pro\PycharmProjects\Excersize\Pizz18.4\pizzeria\users\templates\registration" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5355d00-23d6-4893-adf6-67a188160d51" name="Changes" comment="" />
+      <created>1657699006666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657699006666</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1657723003027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657723003027</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавлены страницы для каждого виде пиццы">
+      <created>1657782862679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657782862679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="добавлены страницы для каждого виде пиццы" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены страницы для каждого виде пиццы" />
+  </component>
+</project>

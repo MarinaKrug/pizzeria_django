@@ -1,5 +1,3 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +6,23 @@
 </head>
 <body>
 <p>
-    <a href="{% url 'pizzas:home' %}">Return homepage</a> -
-    <a href="{% url 'pizzas:list_pizzas' %}">Pizzas</a>
+    <a href="{% url 'pizzas:home' %}">Return homepage</a> --
+    <a href="{% url 'pizzas:list_pizzas' %}">Pizzas</a> --
+
+    {% if user.is_authenticated %}
+    <span>Hello, {{ user.username }}.</span>
+        <a href="{% url 'users:logout' %}">Log out</a> --
+
+    {% else %}
+        <a href="{% url 'users:register' %}">Register</a> --
+
+        <a href="{% url 'users:login' %}">Log in</a>
+
+    {% endif %}
+
+
+
+
 </p>
     {% block content %}
     {% endblock content %}
