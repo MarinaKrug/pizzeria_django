@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
 
-from .models import Pizza
+from pizzas.models import Pizza, PizzaOrder
 
 
 # class UserSerializer(serializers.ModelSerializer):
@@ -10,12 +10,18 @@ from .models import Pizza
 #         fields = ['id', 'username']
 
 
-class PizzaSerializer(serializers.HyperlinkedModelSerializer):
+class PizzaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pizza
-        fields = ['name']
+        fields = "__all__"
 
 
 
 
 
+class PizzaOrderSerializer(serializers.ModelSerializer):
+    user = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    # pizza = serializers.CharField(max_length=200)
+    class Meta:
+        model = PizzaOrder
+        fields = "__all__"
