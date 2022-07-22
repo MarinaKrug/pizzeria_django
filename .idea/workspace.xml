@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5355d00-23d6-4893-adf6-67a188160d51" name="Changes" comment="serializers">
+    <list default="true" id="d5355d00-23d6-4893-adf6-67a188160d51" name="Changes" comment="GET и POST на модель для не зарегистрированного пользователя и  CRUD на модель для авторизованного пользователя">
       <change beforePath="$PROJECT_DIR$/../Blog/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Blog/.idea/Blog.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Blog/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -29,16 +29,14 @@
       <change beforePath="$PROJECT_DIR$/../Blog/blogs/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Blog/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Blog/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pizz18.4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pizz18.4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzeria/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzeria/pizzas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzas/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzeria/pizzeria/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzeria/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzeria/pizzeria/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizzeria/pizzeria/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizzeria/users/migrations/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pizzeria/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pizzeria/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pizzeria/pizzas/views.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -68,15 +68,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Compas-Pro/PycharmProjects/djangoProgects/learning_log&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Compas-Pro/PycharmProjects/Blog",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Compas-Pro\PycharmProjects\Excersize\Pizz18.4\pizzeria\users\templates\registration" />
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658156387618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GET и POST на модель для не зарегистрированного пользователя и  CRUD на модель для авторизованного пользователя">
+      <created>1658406428068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658406428068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,17 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="добавлены страницы для каждого виде пиццы" />
     <MESSAGE value="serializers" />
-    <option name="LAST_COMMIT_MESSAGE" value="serializers" />
+    <MESSAGE value="GET и POST на модель для не зарегистрированного пользователя и  CRUD на модель для авторизованного пользователя" />
+    <option name="LAST_COMMIT_MESSAGE" value="GET и POST на модель для не зарегистрированного пользователя и  CRUD на модель для авторизованного пользователя" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pizzeria/pizzas/models.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

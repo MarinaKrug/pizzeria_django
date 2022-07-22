@@ -30,7 +30,9 @@ SECRET_KEY = 'django-insecure-ypha^$m#li^dw)vr3h$0s)q&0ct-bp41l7k%rhuw6c#2kft^!d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -87,15 +89,27 @@ WSGI_APPLICATION = 'pizzeria.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'pizzas',
+#         'USER': 'postgres',
+#         'PASSWORD': '12345678',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#     }
+# }
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pizzas',
-        'USER': 'postgres',
-        'PASSWORD': '12345678',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'NAME': os.environ.get('POSTGRES_NAME'),
+        'USER': os.environ.get('POSTGRES_USER'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+        'HOST': 'db',
+        'PORT': 5432,
     }
 }
 
